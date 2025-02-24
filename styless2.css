@@ -47,25 +47,14 @@
 }  */
 
 #logo {
-  
-  /* height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.1rem;
-  position: sticky;
-  top: 0;
-  z-index: 999; */
-  background: #ffffff;
+  background: #f3f48e;
   display: inline-block;
   margin-top: 16px;
   margin-right: 0px;
-      /* margin: 20px was off */
   float: inline-start;
   height: 48px;
   width: auto;
-      /* correct proportions to specified height */
-  border-radius: 50%; /*makes it a circle*/
+  border-radius: 50%;
   z-index: 1000;
   }
 
@@ -161,7 +150,7 @@
     font-size: 1.6rem;
   }
 
-  #logo {
+  /* #logo {
   
     background: #fcfe75;
     display: inline-block;
@@ -172,7 +161,7 @@
     width: auto;
     border-radius: 50%;
     z-index: 1000;
-    }
+    } */
 
   .navbar__toggle .bar {
     width: 25px;
