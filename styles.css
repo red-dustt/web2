@@ -6,9 +6,11 @@ body {
   scroll-behavior: smooth;
 }
 
+
+
 .navbar {
-  background: #ff3030;
-  height: 60px;
+  background: #f8e965;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,16 +23,16 @@ body {
 .navbar__container {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   z-index: 1;
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 5px;
 }
 
-#navbar__logo {
-  background-color: #ff8177;
+/* #navbar__logo {
+  background-color: #f6f07f;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
@@ -38,11 +40,34 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
-  align-items: center;
+  align-items: top;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
-}
+  font-size: 2rem; 
+  } */
+
+#logo {
+  
+  /* height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999; */
+  background: #ffffff;
+  display: inline-block;
+  margin: 5px;
+      /* margin: 20px was off */
+  float: inline-start;
+  height: 48px;
+  width: auto;
+      /* correct proportions to specified height */
+  border-radius: 50%; /*makes it a circle*/
+  z-index: 1000;
+  }
+
 
 .navbar__menu {
   display: flex;
