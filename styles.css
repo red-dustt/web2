@@ -111,8 +111,8 @@ body {
   border-radius: 4px;
   background: #833ab4;
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-  color: #fff;
+   background: red; /*linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  color: #fff; */
   transition: all 0.3s ease;
 }
 
@@ -135,22 +135,23 @@ body {
   .navbar__menu {
     display: grid;
     grid-template-columns: auto;
+    justify-content: center;
     margin: 0;
     width: 100%;
     position: absolute;
     top: -1000px;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.1s ease;
     z-index: -1;
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #f8e965;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 60vh;
+    height: vh;
     font-size: 1.6rem;
   }
 
