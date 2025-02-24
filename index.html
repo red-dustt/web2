@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Red Dust Store</title>
 </head>
+<link rel="stylesheet" href="styles.css" />
+
 <body>
 
   <!-- Navbar Section -->
@@ -17,18 +20,13 @@
       </div>
       <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="#home" class="navbar__links" id="home-page">Home</a>
+          <a href="#home" class="navbar__links" id="home-page">Top Up</a>
         </li>
         <li class="navbar__item">
-          <a href="#about" class="navbar__links" id="about-page">About</a>
-        </li>
-        <li class="navbar__item">
-          <a href="#services" class="navbar__links" id="services-page"
-            >Services</a
-          >
+          <a href="#about" class="navbar__links" id="about-page">Piloting Service</a>
         </li>
         <li class="navbar__btn">
-          <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          <a href="#sign-up" class="button" id="Order">Order</a>
         </li>
       </ul>
     </div>
@@ -37,44 +35,40 @@
     <div class="hero__container">
       <h1 class="hero__heading">RED DUST <span>STORE</span></h1>
       <p class="hero__description">Top Up & Piloting Service</p>
-      <button class="main__btn"><a href="https://api.whatsapp.com/send/?phone=6283878420743&text&type=phone_number&app_absent=0">Order</a></button>
     </div>
   </div>
 
   <!-- Hero Section -->
 
-  <div class="main" id="about">
+  <div class="main" id="judul__topUp">
+    <h2>Top Up</h2>
     <div class="main__container">
-      <div class="main__img--container">
-        <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
-      </div>
       <div class="main__content">
-        <h2>Top Up</h2>
         <button class="main__btn"><a href="#">Order</a></button>
       </div>
     </div>
   </div>
 
-   <!-- Services Section - -->
+  <!-- Services Section - -->
   <div class="services" id="services">
     <h2>Piloting Service</h2>
     <div class="services__wrapper">
       <div class="services__card">
-        <div class="services__btn"><button>Get Started</button></div>
+        <div class="order__btn"><button>Order</button></div>
       </div>
       <div class="services__card">
-        <div class="services__btn"><button>Get Started</button></div>
+        <div class="order__btn"><button>Order</button></div>
       </div>
       <div class="services__card">
-        <div class="services__btn"><button>Get Started</button></div>
+        <div class="order__btn"><button>Order</button></div>
       </div>
       <div class="services__card">
-        <div class="services__btn"><button>Get Started</button></div>
+        <div class="order__btn"><button>Order</button></div>
       </div>
     </div>
   </div>
 
-<!-- Features Section
+  <!-- Features Section
   <div class="main" id="sign-up">
     <div class="main__container">
       <div class="main__content">
@@ -91,3 +85,49 @@
     </div>
   </div> -->
 
+
+  <!-- Footer Section -->
+  <div class="footer__container">
+    <div class="footer__links">
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>About Us</h2>
+          <a href="https://x.com/red_dustt/status/1850882144564035597">Testimonials</a>
+          <a href="/">Terms of Service</a>
+        </div>
+        <div class="footer__link--items">
+          <h2>Contact Us</h2>
+          <a href="https://api.whatsapp.com/send/?phone=6283878420743&text&type=phone_number&app_absent=0">Whatsapp</a>
+          <a href="https://t.me/red_dustt">Telegram</a>
+        </div>
+      </div>
+      <div class="footer__link--wrapper">
+        <div class="footer__link--items">
+          <h2>Social Media</h2>
+          <a href="https://www.facebook.com/red.dustt">Facebook</a>
+          <a href="https://x.com/red_dustt">Twitter</a>
+        </div>
+      </div>
+    </div>
+    <section class="social__media">
+      <div class="social__media--wrap">
+        <div class="footer__logo">
+          <!-- <a href="/" id="footer__logo">COLOR</a> -->
+        </div>
+        <p class="website__rights">© RED DUST STORE 2025. All rights reserved</p>
+        <div class="social__icons">
+          <a href="https://www.facebook.com/red.dustt" class="social__icon--link" target="_blank"><i
+              class="fab fa-facebook"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-youtube"></i></a>
+          <a href="/" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://x.com/red_dustt" class="social__icon--link"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
