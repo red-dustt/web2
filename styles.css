@@ -306,7 +306,6 @@ a:visited{
     font-weight: 1000;
     margin-top: -7px;
     margin-bottom: 20px;
-    border-bottom: 5px solid #ff4040;
   
   }
 
@@ -316,6 +315,8 @@ a:visited{
     font-size: 30px;
     line-height: 40px ;
     font-weight: 600;
+    border-bottom: solid 7px #ff4040
+    
   }
 }
 
@@ -327,7 +328,7 @@ a:visited{
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 30px 0;
+  padding: 10px 0;
 }
 
 .topup h1 {
@@ -448,7 +449,7 @@ a:visited{
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 2rem 0;
+  padding: 10px 0;
 }
 
 .services h1 {
@@ -677,59 +678,4 @@ a:visited{
     width: 100%;
   }
 }
-
-
-/////
-.slider{
-  position: relative;
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-}
-.slider img{
-  width: 100%;
-  display: none;
-}
-img.displaySlide{
-  display: block;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-.slider button{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 2rem;
-  padding: 10px 15px;
-  background-color: hsla(0, 0%, 0%, 0.5);
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-.prev{
-  left: 0;
-}
-.next{
-  right: 0;
-}
-@keyframes fade {
-  from {opacity: .5}
-  to {opacity: 1}
-}
-
-button {
-  text-decoration: none;
-}
-
-.info-order {
-  margin: 10px;
-  font-size: 2rem;
-  color: rgb(255, 121, 121);
-  padding: 20px;
-  text-align: center;
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-  border-radius: 20px;
-  
-}
+//footer//
