@@ -682,3 +682,17 @@ a:visited{
 }
 
 //footer//
+
+@media screen and (max-width: 1300px) {
+  .topup__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ramadhan {
+    width: 500px;
+    height: 600px;
+  }
+}
+
