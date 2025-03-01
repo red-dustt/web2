@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hitung Mundur Maghrib 2 Maret 2025 Kab. Bogor</title>
+  <style>* {
+    box-sizing: border-box;
+  }
+  
+  .image-lebaran {
+    height: 500px;
+    margin: none;
+    padding-bottom: -100px;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin: 150px 0 40px;
+  }
+  
+  .countdown {
+    display: flex;
+    transform: scale(2);
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  .time h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1;
+    margin: 0 0 5px;
+  }
+  
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 45px;
+    }
+  
+    .time {
+      margin: 5px
+    }
+  
+    .time h2 {
+      font-size: 12px;
+    }
+  
+    .time font-synthesis-small-caps: {
+      font-size: 10px;
+    };
+  }</style>
+</head>
+<body>
+  <h1>
+    Hitung Mundur Maghrib 2 Maret 2025 Kab. Bogor
+  </h1>
+
+  <div class="countdown" id="countdown">
+
+    <div class="time">
+      <h2 id="hours">00</h2>
+      <small>jam</small>
+    </div>
+
+    <div class="time">
+      <h2 id="minutes">00</h2>
+      <small>Menit</small>
+    </div>
+
+    <div class="time">
+      <h2 id="seconds">00</h2>
+      <small>Detik</small>
+    </div>
+
+  </div>
+  
+
+  <script>
+
+const hours = document.getElementById ('hours');
+const minutes = document.getElementById ('minutes');
+const seconds = document.getElementById ('seconds');
+
+const hariIni = new Date().getTime();
+const maghrib = new Date('March 02, 2025 18:13:00').getTime()
+///
+updateCountdowntime ()
+function updateCountdowntime() {
+  const hariin = new Date().getTime();
+  const diff = maghrib - hariin;
+  const h = Math.floor(diff / 1000 / 60 /60) % 24;
+  const m = Math.floor(diff / 1000 / 60) % 60;
+  const s = Math.floor(diff / 1000) % 60;
+
+
+  hours.innerHTML = h;
+  minutes.innerHTML = m;
+  seconds.innerHTML = s;
+}
+
+setInterval (updateCountdowntime, 1000);
+  </script>
+</body>
+</html>
