@@ -133,6 +133,7 @@ function updateCountdowntime() {
   minutes.innerHTML = m;
   seconds.innerHTML = s;
   console.log(diff)
+  if (diff === 0) {tanggal = +1}
 }
 
 setInterval (updateCountdowntime, 1000);
