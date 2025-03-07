@@ -113,29 +113,29 @@
 
   <script>
 
-const hours = document.getElementById ('hours');
-const minutes = document.getElementById ('minutes');
-const seconds = document.getElementById ('seconds');
-let tanggal = 06
-const hariIni = new Date().getTime();
-const maghrib = new Date(`March ${tanggal}, 2025 18:11:00`).getTime()
-///
-updateCountdowntime ()
-function updateCountdowntime() {
-  const hariin = new Date().getTime();
-  const diff = maghrib - hariin;
-  const h = Math.floor(diff / 1000 / 60 /60) % 24;
-  const m = Math.floor(diff / 1000 / 60) % 60;
-  const s = Math.floor(diff / 1000) % 60;
+// const hours = document.getElementById ('hours');
+// const minutes = document.getElementById ('minutes');
+// const seconds = document.getElementById ('seconds');
+// let tanggal = 06
+// const hariIni = new Date().getTime();
+// const maghrib = new Date(`March ${tanggal}, 2025 18:11:00`).getTime()
+// ///
+// updateCountdowntime ()
+// function updateCountdowntime() {
+//   const hariin = new Date().getTime();
+//   const diff = maghrib - hariin;
+//   const h = Math.floor(diff / 1000 / 60 /60) % 24;
+//   const m = Math.floor(diff / 1000 / 60) % 60;
+//   const s = Math.floor(diff / 1000) % 60;
 
 
-  hours.innerHTML = h;
-  minutes.innerHTML = m;
-  seconds.innerHTML = s;
+//   hours.innerHTML = h;
+//   minutes.innerHTML = m;
+//   seconds.innerHTML = s;
 
-}
+// }
 
-setInterval (updateCountdowntime, 1000);
+// setInterval (updateCountdowntime, 1000);
   </script>
 </body>
 </html>
